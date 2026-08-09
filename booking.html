@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>booking | Leyali Events And Decor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="styles">
+   <img src="images/logo.jpg"class="logoo"alt="Leyali Events and Decor Logo">
+  <nav class="homee">
+    <a href="index.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="packages.html">Packages</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="booking.html"class="active">Booking</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  </section>
+  <h1>Book your events</h1>
+  <p>please fill out the form below to book our decoration services</p>
+  <form action="https://formsubmit.co/dinoorsami@gmail.com" method="POST">
+  <label for="fullname">Full name:</label>
+  <input type="text"id="fullname" name="Full Name" required><br><br>  
+
+
+  <label for="phone">Phone number:</label>
+  <input type="tel"id="phone" name="Phone number" required><br><br>  
+
+
+  <label for="day">Event Date:</label>
+  <input type="date"id="day" name="event date" required><br><br>  
+
+
+  <label for="message">Message:</label>
+  <textarea id="message" name="Message"></textarea><br><br>
+
+
+
+  <label for="email">Email:</label>
+  <input type="email"id="email"name="Email" required><br><br>
+
+
+
+  <label for="package">Choose a package:</label>
+  <select id="package" name="package">
+    <option>Basic</option>
+    <option>Premium</option>
+    <option>Luxury</option>
+  </select><br><br>
+<button type="submit">Submit</button>
+  </form>
+</body>
+</html>
